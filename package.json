@@ -1,0 +1,35 @@
+{
+  "name": "tdd-dsa",
+  "version": "1.0.0",
+  "description": "## Description TDD DSA is a technical assessment project aimed at demonstrating proficiency in Test Driven Development (TDD) while implementing Data Structures and Algorithms (DSA) concepts. This project is part of an interview process for a potential employer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v1kasjain/tdd-dsa.git"
+  },
+  "keywords": [
+    "TDD",
+    "DSA",
+    "TDD",
+    "with",
+    "DSA"
+  ],
+  "author": "Vikas Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v1kasjain/tdd-dsa/issues"
+  },
+  "homepage": "https://github.com/v1kasjain/tdd-dsa#readme",
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "jest": "^29.7.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  }
+}
